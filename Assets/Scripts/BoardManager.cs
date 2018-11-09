@@ -125,7 +125,11 @@ public class BoardManager : MonoBehaviour
     }
 
 
-    //SetupScene initializes our level and calls the previous functions to lay out the game board
+
+    /// <summary>
+    /// SetupScene initializes our level and calls the previous functions to lay out the game board
+    /// </summary>
+    /// <param name="level"></param>
     public void SetupScene(int level)
     {
         //Creates the outer walls and floor.
